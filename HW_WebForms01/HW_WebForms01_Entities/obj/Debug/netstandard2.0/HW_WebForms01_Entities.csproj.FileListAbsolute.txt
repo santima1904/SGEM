@@ -1,0 +1,9 @@
+D:\GitHubJesus\CursoSegundo\SGEMP\HW_WebForms01\HW_WebForms01_Entities\bin\Debug\netstandard2.0\HW_WebForms01_Entities.deps.json
+D:\GitHubJesus\CursoSegundo\SGEMP\HW_WebForms01\HW_WebForms01_Entities\bin\Debug\netstandard2.0\HW_WebForms01_Entities.dll
+D:\GitHubJesus\CursoSegundo\SGEMP\HW_WebForms01\HW_WebForms01_Entities\bin\Debug\netstandard2.0\HW_WebForms01_Entities.pdb
+D:\GitHubJesus\CursoSegundo\SGEMP\HW_WebForms01\HW_WebForms01_Entities\obj\Debug\netstandard2.0\HW_WebForms01_Entities.csprojAssemblyReference.cache
+D:\GitHubJesus\CursoSegundo\SGEMP\HW_WebForms01\HW_WebForms01_Entities\obj\Debug\netstandard2.0\HW_WebForms01_Entities.AssemblyInfoInputs.cache
+D:\GitHubJesus\CursoSegundo\SGEMP\HW_WebForms01\HW_WebForms01_Entities\obj\Debug\netstandard2.0\HW_WebForms01_Entities.AssemblyInfo.cs
+D:\GitHubJesus\CursoSegundo\SGEMP\HW_WebForms01\HW_WebForms01_Entities\obj\Debug\netstandard2.0\HW_WebForms01_Entities.csproj.CoreCompileInputs.cache
+D:\GitHubJesus\CursoSegundo\SGEMP\HW_WebForms01\HW_WebForms01_Entities\obj\Debug\netstandard2.0\HW_WebForms01_Entities.dll
+D:\GitHubJesus\CursoSegundo\SGEMP\HW_WebForms01\HW_WebForms01_Entities\obj\Debug\netstandard2.0\HW_WebForms01_Entities.pdb

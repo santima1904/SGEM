@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW_WebForms01_UI", "HW_WebForms01_UI\HW_WebForms01_UI.csproj", "{022A4D5C-085C-45C0-A060-F31022922832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW_WebForms01_Entities", "HW_WebForms01_Entities\HW_WebForms01_Entities.csproj", "{5DAAE4E2-D5BB-42F8-9768-AFA49A1BFA17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{022A4D5C-085C-45C0-A060-F31022922832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022A4D5C-085C-45C0-A060-F31022922832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022A4D5C-085C-45C0-A060-F31022922832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022A4D5C-085C-45C0-A060-F31022922832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DAAE4E2-D5BB-42F8-9768-AFA49A1BFA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DAAE4E2-D5BB-42F8-9768-AFA49A1BFA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DAAE4E2-D5BB-42F8-9768-AFA49A1BFA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DAAE4E2-D5BB-42F8-9768-AFA49A1BFA17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7BF0122-8466-468A-ACB9-20623403BD14}
+	EndGlobalSection
+EndGlobal

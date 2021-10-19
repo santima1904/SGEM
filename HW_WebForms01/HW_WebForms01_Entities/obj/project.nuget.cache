@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "eT8Rr6AEI8vOOEAAFRdPOJghRuy+w/IdoUFNeAfbcI5t2i1DgtwOLYLYku3u3UhvvBlx1jZOJ9DeAbRtlhbsCg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\SGEM\\HW_WebForms01\\HW_WebForms01_Entities\\HW_WebForms01_Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\smartinez\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\smartinez\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
