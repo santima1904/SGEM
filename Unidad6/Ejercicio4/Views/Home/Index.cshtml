@@ -1,17 +1,25 @@
 ﻿<html>
-    <head>
-        <title>Index</title>
-    </head>
-    <body>
-        <p>
-            @for(int i = 0; i < 11; i++)
+<head>
+    <title>Index</title>
+</head>
+<body>
+    <table border="1">
+        @for (int i = 0; i < 11; i++)
+        {
+        <tr>
+            @for (int j = 0; j < 11; j++)
             {
-                for (int j = 0; j < 11; j++)
-                {
-                    @i<span> x </span>@j<span> =  </span>@(i*j);
-                }
+            <td>
+                @i
+                <span>x</span>
+                @j
+                <span>=</span>
+                @(i*j)
+            </td>
+           
             }
-        </p>
-    </body>
+        </tr>
+        }
+    </table>
+</body>
 </html>
-
