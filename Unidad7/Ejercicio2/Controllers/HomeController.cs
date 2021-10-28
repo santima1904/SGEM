@@ -20,7 +20,8 @@ namespace Ejercicio2.Controllers
 
         public IActionResult ListadoPersonas()
         {
-            return View();
+            List<clsPersona> alumnos = Models.Listado.crearListadoPersonas();
+            return View(alumnos);
         }
 
         public IActionResult Privacy()
