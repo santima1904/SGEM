@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 
 namespace Ejercicio2.Models
 {
