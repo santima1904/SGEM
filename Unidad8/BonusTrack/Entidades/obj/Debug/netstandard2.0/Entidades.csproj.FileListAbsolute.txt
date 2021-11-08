@@ -1,0 +1,9 @@
+C:\Users\TESTER\Desktop\DAM\SGE\Unidad8\BonusTrack\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
+C:\Users\TESTER\Desktop\DAM\SGE\Unidad8\BonusTrack\Entidades\bin\Debug\netstandard2.0\Entidades.dll
+C:\Users\TESTER\Desktop\DAM\SGE\Unidad8\BonusTrack\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
+C:\Users\TESTER\Desktop\DAM\SGE\Unidad8\BonusTrack\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.AssemblyReference.cache
+C:\Users\TESTER\Desktop\DAM\SGE\Unidad8\BonusTrack\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\TESTER\Desktop\DAM\SGE\Unidad8\BonusTrack\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
+C:\Users\TESTER\Desktop\DAM\SGE\Unidad8\BonusTrack\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\TESTER\Desktop\DAM\SGE\Unidad8\BonusTrack\Entidades\obj\Debug\netstandard2.0\Entidades.dll
+C:\Users\TESTER\Desktop\DAM\SGE\Unidad8\BonusTrack\Entidades\obj\Debug\netstandard2.0\Entidades.pdb

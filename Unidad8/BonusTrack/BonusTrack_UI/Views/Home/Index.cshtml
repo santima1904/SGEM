@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model BonusTrack_UI.Models.IndexVMcs
+
+<div class="text-center">
+    <form method="post">
+        <select>
+            @foreach (String nombre in Model.ListadoNombres)
+            {
+                <option value="@nombre">@nombre</option>
+            }
+        </select>
+    </form>
+</div>
