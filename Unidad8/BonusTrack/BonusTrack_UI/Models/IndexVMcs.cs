@@ -17,11 +17,10 @@ namespace BonusTrack_UI.Models
             clsListadoPlantas listadoPersonas = new clsListadoPlantas();
 
             this.listadoNombres = listadoPersonas.obtenerListadoNombrePlantas();
+            this.planta = new clsPlantas();
         }
 
-        public List<string> ListadoNombres { 
-            get => listadoNombres;
-            set => listadoNombres = value; }
+        public List<string> ListadoNombres { get => listadoNombres; set => listadoNombres = value; }
         public clsPlantas Planta { get => planta; set => planta = value; }
     }
 }

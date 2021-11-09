@@ -1,4 +1,5 @@
 ﻿using BonusTrack_UI.Models;
+using DAL;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -25,10 +26,14 @@ namespace BonusTrack_UI.Controllers
         }
 
         [HttpPost]
-        public IActionResult Index(IndexVMcs indexVMcs)
+        public IActionResult Index(string slcPlantas)//slcPlantas es el name del select
         {
-            indexVMcs.Planta = 
-            return View(IndexVMcs);
+            clsListadoPlantas listado = new clsListadoPlantas();
+            IndexVMcs indexVMcs = new IndexVMcs();
+        
+            indexVMcs.Planta = listado.obtenerPlantaApartirNombre(slcPlantas);
+
+            return View(indexVMcs);
         }
 
         public IActionResult Privacy()

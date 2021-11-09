@@ -10,3 +10,15 @@ C:\Users\TESTER\Desktop\DAM\SGE\Unidad8\BonusTrack\DAL\bin\Debug\netstandard2.0\
 C:\Users\TESTER\Desktop\DAM\SGE\Unidad8\BonusTrack\DAL\obj\Debug\netstandard2.0\DAL.csproj.CopyComplete
 C:\Users\TESTER\Desktop\DAM\SGE\Unidad8\BonusTrack\DAL\obj\Debug\netstandard2.0\DAL.dll
 C:\Users\TESTER\Desktop\DAM\SGE\Unidad8\BonusTrack\DAL\obj\Debug\netstandard2.0\DAL.pdb
+C:\Users\smartinez\Desktop\GithubSanti\SGEM\Unidad8\BonusTrack\DAL\bin\Debug\netstandard2.0\DAL.deps.json
+C:\Users\smartinez\Desktop\GithubSanti\SGEM\Unidad8\BonusTrack\DAL\bin\Debug\netstandard2.0\DAL.dll
+C:\Users\smartinez\Desktop\GithubSanti\SGEM\Unidad8\BonusTrack\DAL\bin\Debug\netstandard2.0\DAL.pdb
+C:\Users\smartinez\Desktop\GithubSanti\SGEM\Unidad8\BonusTrack\DAL\bin\Debug\netstandard2.0\Entidades.dll
+C:\Users\smartinez\Desktop\GithubSanti\SGEM\Unidad8\BonusTrack\DAL\bin\Debug\netstandard2.0\Entidades.pdb
+C:\Users\smartinez\Desktop\GithubSanti\SGEM\Unidad8\BonusTrack\DAL\obj\Debug\netstandard2.0\DAL.csproj.AssemblyReference.cache
+C:\Users\smartinez\Desktop\GithubSanti\SGEM\Unidad8\BonusTrack\DAL\obj\Debug\netstandard2.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smartinez\Desktop\GithubSanti\SGEM\Unidad8\BonusTrack\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+C:\Users\smartinez\Desktop\GithubSanti\SGEM\Unidad8\BonusTrack\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+C:\Users\smartinez\Desktop\GithubSanti\SGEM\Unidad8\BonusTrack\DAL\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\smartinez\Desktop\GithubSanti\SGEM\Unidad8\BonusTrack\DAL\obj\Debug\netstandard2.0\DAL.dll
+C:\Users\smartinez\Desktop\GithubSanti\SGEM\Unidad8\BonusTrack\DAL\obj\Debug\netstandard2.0\DAL.pdb

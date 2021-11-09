@@ -8,10 +8,11 @@ namespace DAL
     public class clsListadoPlantas
     {
         /// <summary>
-        /// <h1>Cabecera: </h1>private List<clsPlantas> obtenerListaPlantasCompleto()
+        /// <h1>Cabecera: </h1>private List(clsPlantas) obtenerListaPlantasCompleto()
         /// <h1>Descripción: </h1>Método para crear una lista de plantas
+        /// Este método simula la conexión con la BBDD
         /// </summary>
-        /// <returns>List<clsPlantas></returns>
+        /// <returns>List(clsPlantas)</returns>
         private List<clsPlantas> obtenerListaPlantasCompleto()
         {
            List<clsPlantas> listadoPlantas = new List<clsPlantas>();
@@ -27,12 +28,12 @@ namespace DAL
         }
 
         /// <summary>
-        /// <h1>Cabecera: </h1>public List<String> obtenerListadoNombrePlantas()
+        /// <h1>Cabecera: </h1>public List(String) obtenerListadoNombrePlantas()
         /// <h1>Descripción: </h1>Método para crear una lista de nombres plantas
         /// <h1>Precondiciones: </h1>Ninguna
         /// </summary>
         /// <h1>Postcondiciones:</h1>Listado de nombres de plantas devuelto
-        /// <returns>List<clsPlantas></returns>
+        /// <returns>List(clsPlantas)</returns>
         public List<String> obtenerListadoNombrePlantas()
         {
             List<String> listadoNombres = new List<string>();
@@ -57,11 +58,13 @@ namespace DAL
         public clsPlantas obtenerPlantaApartirNombre(String nombre)
         {
             clsPlantas planta = new clsPlantas();
+            List<clsPlantas> listado = obtenerListaPlantasCompleto();
+            bool encontrado = false;
 
-            foreach (clsPlantas plantaAux in obtenerListaPlantasCompleto())
+            for(int i = 0;i<listado.Count&&!encontrado;i++)
             {
-                if (nombre.Equals(plantaAux.Nombre)){
-                    planta = plantaAux;
+                if (nombre == listado[i].Nombre){
+                    planta = listado[i];
                 }
             }
 

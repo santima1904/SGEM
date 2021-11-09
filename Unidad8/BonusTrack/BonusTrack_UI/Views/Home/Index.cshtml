@@ -6,11 +6,15 @@
 
 <div class="text-center">
     <form method="post">
-        <select>
+        <select name="slcPlantas" id="select">
             @foreach (String nombre in Model.ListadoNombres)
             {
                 <option value="@nombre">@nombre</option>
             }
         </select>
+        <input type="submit"/>
     </form>
+    <br/>
+    <h1>@Model.Planta.Nombre</h1>
+    <p>@Model.Planta.Descripcion</p>
 </div>
