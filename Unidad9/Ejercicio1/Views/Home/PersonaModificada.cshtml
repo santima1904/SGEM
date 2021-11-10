@@ -1,0 +1,39 @@
+﻿
+@{
+    Layout = null;
+}
+
+@model Unidad9.Entidades.clsPersona;
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PersonaModificada</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Nombre: </td>
+            <td>@Model.Nombre</td>
+        </tr>
+        <tr>
+            <td>Apellidos: </td>
+            <td>@Model.Apellidos</td>
+        </tr>
+        <tr>
+            <td>Fecha de nacimiento: </td>
+            <td>@Model.FechaNacimiento</td>
+        </tr>
+        <tr>
+            <td>Dirección: </td>
+            <td>@Model.Direccion</td>
+        </tr>
+        <tr>
+            <td>Teléfono: </td>
+            <td>@Model.Telefono</td>
+        </tr>
+    </table>
+</body>
+</html>
