@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fb8a23aa-82c2-402e-8144-7000ed29307f": {
+      "ProjectGuid": "fb8a23aa-82c2-402e-8144-7000ed29307f",
+      "DisplayName": "Santaigo_Martinez_Aral_ExamenAsp_UI",
+      "ColorIndex": 0
+    },
+    "4279cd2a-4c9f-409f-bd8d-fef04c56bac7": {
+      "ProjectGuid": "4279cd2a-4c9f-409f-bd8d-fef04c56bac7",
+      "DisplayName": "Santaigo_Martinez_Aral_ExamenAsp_Entidades",
+      "ColorIndex": 1
+    },
+    "97309f29-1bba-45d4-9cf8-95a3df146ad9": {
+      "ProjectGuid": "97309f29-1bba-45d4-9cf8-95a3df146ad9",
+      "DisplayName": "Santaigo_Martinez_Aral_ExamenAsp_DAL",
+      "ColorIndex": 2
+    },
+    "305f8ecd-0bbb-445c-a88b-ef67ad0466b9": {
+      "ProjectGuid": "305f8ecd-0bbb-445c-a88b-ef67ad0466b9",
+      "DisplayName": "Santaigo_Martinez_Aral_ExamenAsp_BL",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
