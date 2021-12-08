@@ -1,8 +1,10 @@
-﻿using Ejercicio1.Models;
+﻿using _07_CRUD_Personas_DAL.Conexion;
+using Ejercicio1.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
@@ -20,6 +22,24 @@ namespace Ejercicio1.Controllers
 
         public IActionResult Index()
         {
+            return View();
+        }
+
+        [HttpPost]
+        [ActionName("Index")]
+        public IActionResult IndexPost()
+        {
+            try
+            {
+                clsMyConnection miConexion = new clsMyConnection();
+                SqlConnection connection = miConexion.getConnection();
+                ViewBag.Status = connection.State;
+                miConexion.closeConnection(ref connection);
+            }catch(Exception e)
+            {
+                ViewBag.Status = e.Message;
+            }
+            
             return View();
         }
 
