@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "afc98cd0-7ead-4e1e-af10-2bd90c394d61": {
+      "ProjectGuid": "afc98cd0-7ead-4e1e-af10-2bd90c394d61",
+      "DisplayName": "DAL",
+      "ColorIndex": 0
+    },
+    "184d4138-cc00-4d70-97ec-309cc3990212": {
+      "ProjectGuid": "184d4138-cc00-4d70-97ec-309cc3990212",
+      "DisplayName": "Ejercicio1",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

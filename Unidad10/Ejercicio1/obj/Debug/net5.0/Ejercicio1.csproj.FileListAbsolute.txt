@@ -24,7 +24,6 @@ C:\Users\smartinez\Desktop\GithubSanti\SGEM\Unidad10\Ejercicio1\obj\Debug\net5.0
 C:\Users\smartinez\Desktop\GithubSanti\SGEM\Unidad10\Ejercicio1\obj\Debug\net5.0\Ejercicio1.RazorAssemblyInfo.cache
 C:\Users\smartinez\Desktop\GithubSanti\SGEM\Unidad10\Ejercicio1\obj\Debug\net5.0\Ejercicio1.RazorAssemblyInfo.cs
 C:\Users\smartinez\Desktop\GithubSanti\SGEM\Unidad10\Ejercicio1\obj\Debug\net5.0\staticwebassets\Ejercicio1.StaticWebAssets.Manifest.cache
-C:\Users\smartinez\Desktop\GithubSanti\SGEM\Unidad10\Ejercicio1\obj\Debug\net5.0\staticwebassets\Ejercicio1.StaticWebAssets.xml
 C:\Users\smartinez\Desktop\GithubSanti\SGEM\Unidad10\Ejercicio1\obj\Debug\net5.0\scopedcss\bundle\Ejercicio1.styles.css
 C:\Users\smartinez\Desktop\GithubSanti\SGEM\Unidad10\Ejercicio1\obj\Debug\net5.0\Ejercicio1.TagHelpers.input.cache
 C:\Users\smartinez\Desktop\GithubSanti\SGEM\Unidad10\Ejercicio1\obj\Debug\net5.0\Ejercicio1.TagHelpers.output.cache
