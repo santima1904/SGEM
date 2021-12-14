@@ -5,7 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\ViewModels\" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Santaigo_Martinez_Aral_ExamenAsp_BL\Santaigo_Martinez_Aral_ExamenAsp_BL.csproj" />
+    <ProjectReference Include="..\Santaigo_Martinez_Aral_ExamenAsp_Entidades\Santaigo_Martinez_Aral_ExamenAsp_Entidades.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Santaigo_Martinez_Aral_ExamenAsp_Entidades.clsCategoria>
+
+@{
+    ViewData["Title"] = "ListadoCategorias";
+}
+
+<h1>ListadoCategorias</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreCategoria)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreCategoria)
+            </td>
+            <td>
+                @Html.ActionLink("Ir a la vista de la planta", "Index","Planta", new { id = item.IdCategoria }) 
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

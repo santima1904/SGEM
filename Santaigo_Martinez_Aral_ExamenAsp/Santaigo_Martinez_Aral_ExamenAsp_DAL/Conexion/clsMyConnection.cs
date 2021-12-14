@@ -31,10 +31,10 @@ namespace CRUD_Personas_DAL.Conexion
 
         public clsMyConnection()
         {           
-            this.server = "santimaserver.database.windows.net";
-            this.dataBase = "BaseDatosAzure";
-            this.user = "saboresdelatierra";            
-            this.pass = "#Mitesoro";
+            this.server = "107-12\\SQLEXPRESS";
+            this.dataBase = "FrayGuillermo";
+            this.user = "prueba";            
+            this.pass = "123";
 
         }
         //Con parámetros por si quisiera cambiar las conexiones

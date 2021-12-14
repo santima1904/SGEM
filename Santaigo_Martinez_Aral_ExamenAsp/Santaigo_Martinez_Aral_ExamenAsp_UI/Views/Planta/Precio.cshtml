@@ -1,0 +1,35 @@
+﻿@model Santaigo_Martinez_Aral_ExamenAsp_Entidades.clsPlanta
+
+@{
+    ViewData["Title"] = "Precio";
+}
+
+<h1>Descripción @Model.Nombre</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <div>@Model.Nombre</div>  
+            </div>
+            <div class="form-group">
+                <label asp-for="Descripcion" class="control-label"></label>
+                <div>@Model.Descripcion</div>
+            </div>
+        <form asp-action="Precio">
+            <div class="form-group">
+                <label asp-for="Precio" class="control-label"></label>
+                <input asp-for="Precio" class="form-control" />
+                <span asp-validation-for="Precio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+

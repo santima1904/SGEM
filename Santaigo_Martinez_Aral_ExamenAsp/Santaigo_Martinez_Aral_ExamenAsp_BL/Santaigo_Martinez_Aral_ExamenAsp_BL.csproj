@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Gestora\" />
-    <Folder Include="Listado\" />
+    <ProjectReference Include="..\Santaigo_Martinez_Aral_ExamenAsp_DAL\Santaigo_Martinez_Aral_ExamenAsp_DAL.csproj" />
+    <ProjectReference Include="..\Santaigo_Martinez_Aral_ExamenAsp_Entidades\Santaigo_Martinez_Aral_ExamenAsp_Entidades.csproj" />
   </ItemGroup>
 
 </Project>

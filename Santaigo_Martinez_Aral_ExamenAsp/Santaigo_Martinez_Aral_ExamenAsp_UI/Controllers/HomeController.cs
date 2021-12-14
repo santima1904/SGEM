@@ -19,7 +19,7 @@ namespace Santaigo_Martinez_Aral_ExamenAsp_UI.Controllers
         }
 
         public IActionResult Index()
-        {
+        {  
             return View();
         }
 

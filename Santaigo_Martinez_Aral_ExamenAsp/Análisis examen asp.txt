@@ -1,0 +1,61 @@
+Análisis examen asp 1
+
+Capa entidades:
+	- clsPlanta. Atributos:
+		idPlanta int
+		nombre string
+		descripcion string
+		idCategoria int
+		precio double
+	- clscategoria. Atributos:
+		idCategoria int
+		nombreCategoria string
+
+Capa DAL:
+	- Utilidades: 
+		- clsMyConnection
+	- Listado:
+		- clsListadoPlantas
+			ObservableCollection<clsPlanta> obtenerListadoPlantasPorCategoriaDAL(int idCategoria)
+			clsPlanta obtenerPlanta(int id)
+		- clsListadoCategorias
+			ObservableCollection<clsCategoria> obtenerListadoCategoriasCompletoDAL()
+	- Gestora:
+		- clsGestoraPlanta
+			int actualizarPrecioPlantaDAL(clsPlanta planta)
+
+Capa BL:
+	- Listado:
+		- clsListadoPlantas
+			ObservableCollection<clsPlanta> obtenerListadoPlantasPorCategoriaBL(int idCategoria)
+		- clsListadoCategorias
+			ObservableCollection<clsCategoria> obtenerListadoCategoriasCompletoBL()
+	- Gestora:
+		- clsGestoraPlanta
+			int actualizarPrecioPlantaBL(clsPlanta planta)
+
+
+Capa UI:
+	- Models:
+		(clsPlantaSoloNombre) este modelo sería si me da tiempo porque no es necesario pero es más eficiente
+		- ViewModels: 
+			- clsListadoCategorias
+				Atributos:
+					ObservableCollection<clsCategoria> listadoCategorias
+				Métodos:
+					ObservableCollection<clsCategoria> rellenarListadoCategoriasCompleto()
+				
+			- clsListadoPlantasPorCategoria
+				Atributos:
+					ObservableCollection<clsPlanta> listadoPlantas
+				Métodos:
+					ObservableCollection<clsCategoria> rellenarListadoPlantasPorCategoria()
+
+	- Controllers:
+		- ListadoCategoriaController
+		- ListadoPlantasController
+		
+	- Views:
+		ListadoCategoria
+		ListadoPlantas
+		Planta

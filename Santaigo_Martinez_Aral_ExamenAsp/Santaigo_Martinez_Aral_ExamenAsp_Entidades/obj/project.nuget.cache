@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "zyt1r0+uOyTERvzS6YSFmzskHdTlNSlWUHa4rVpr+6wKxT3FyEbVVZle9LdY7yUrtHyAKPsyG3kdJ9sC+coEWg==",
+  "dgSpecHash": "vBNsOeCnVRwrOPgq7rWrNoygLyXO2R1o1N1uTdquFRgcJol/+LT3C2mjcRMLBCYSmxdcCJd1wyf5ucVT+wJK/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TESTER\\Desktop\\DAM\\SGE\\Santaigo_Martinez_Aral_ExamenAsp\\Santaigo_Martinez_Aral_ExamenAsp_Entidades\\Santaigo_Martinez_Aral_ExamenAsp_Entidades.csproj",
+  "projectFilePath": "C:\\Users\\smartinez\\Desktop\\GithubSanti\\SGEM\\Santaigo_Martinez_Aral_ExamenAsp\\Santaigo_Martinez_Aral_ExamenAsp_Entidades\\Santaigo_Martinez_Aral_ExamenAsp_Entidades.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\TESTER\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\TESTER\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\smartinez\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\smartinez\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\smartinez\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
