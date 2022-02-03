@@ -1,0 +1,22 @@
+<form [formGroup]="formulario">
+    <span>Nombre: </span>
+    <input type="text" formControlName="nombre"/>
+    <span *ngIf="(formulario.controls.nombre.dirty ||
+    formulario.controls.nombre.touched)
+    &&this.formulario.controls.nombre.errors?.required">
+    El nombre es obligatorio
+    </span>
+    <br/>
+    <br/>
+    <br/>
+    <span>Apellidos: </span>
+    <input type="text" formControlName="apellidos"/>
+    <span *ngIf="(formulario.controls.apellidos.dirty ||
+    formulario.controls.apellidos.touched)
+    &&this.formulario.controls.apellidos.errors?.['maxlength']">
+    Maximo 20 caracteres
+    </span>
+    <br/>
+    <input type="button" [disabled]="formulario.invalid" value="Pulsameee" (click)="saludo()"/>
+    <input type="button" value="Atras" (click)="goback()"/>
+</form>

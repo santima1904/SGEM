@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Routes, RouterModule, Router } from '@angular/router';
 
 @Component({
   selector: 'app-tabla-personas',
@@ -6,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tabla-personas.component.css']
 })
 export class TablaPersonasComponent implements OnInit {
+  [x: string]: any;
 
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit(): void {
+  }
+
+  listado(){
+    this.router.navigateByUrl('listado')
   }
 
 }

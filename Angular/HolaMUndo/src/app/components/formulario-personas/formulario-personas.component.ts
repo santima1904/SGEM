@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-formulario-personas',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormularioPersonasComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit(): void {
     
@@ -15,6 +16,10 @@ export class FormularioPersonasComponent implements OnInit {
 
   saludar(){
     alert("Hola "+(<HTMLInputElement>(document.getElementById("nombre"))).value+(<HTMLInputElement>(document.getElementById("apellidos"))).value);
+  }
+
+  goback(){
+    this.router.navigateByUrl('tabla')
   }
 
 }
