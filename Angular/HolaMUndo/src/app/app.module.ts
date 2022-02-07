@@ -9,6 +9,12 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FormularioReactivoComponent } from './components/formulario-reactivo/formulario-reactivo.component';
 import { ProgressSpinnerComponent } from './components/progress-spinner/progress-spinner.component';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import { RadioButtonComponent } from './components/radio-button/radio-button.component';
+import {MatRadioModule} from '@angular/material/radio';
+import { SliderComponent } from './components/slider/slider.component';
+import {MatSliderModule} from '@angular/material/slider';
+import {MatBadgeModule} from '@angular/material/badge';
+import { BadgeComponent } from './components/badge/badge.component';
 
 @NgModule({
   declarations: [
@@ -18,12 +24,18 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
     ListadoPersonasComponent,
     FormularioReactivoComponent,
     ProgressSpinnerComponent,
+    RadioButtonComponent,
+    SliderComponent,
+    BadgeComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    MatRadioModule,
+    MatSliderModule,
+    MatBadgeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

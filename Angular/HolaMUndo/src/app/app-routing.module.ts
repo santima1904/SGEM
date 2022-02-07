@@ -6,7 +6,6 @@ import { ListadoPersonasComponent } from './components/listado-personas/listado-
 import { TablaPersonasComponent } from './components/tabla-personas/tabla-personas.component';
 
 const routes: Routes = [
-  {path: '', component: TablaPersonasComponent},
   {path: 'tabla', component: TablaPersonasComponent},
   {path:'formulario',component: FormularioPersonasComponent},
   {path:'listado',component: ListadoPersonasComponent},
