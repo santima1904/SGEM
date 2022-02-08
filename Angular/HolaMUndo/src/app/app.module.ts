@@ -15,6 +15,8 @@ import { SliderComponent } from './components/slider/slider.component';
 import {MatSliderModule} from '@angular/material/slider';
 import {MatBadgeModule} from '@angular/material/badge';
 import { BadgeComponent } from './components/badge/badge.component';
+import { HttpClientModule } from '@angular/common/http';
+import { TablaApiComponent } from './components/tabla-api/tabla-api.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,7 @@ import { BadgeComponent } from './components/badge/badge.component';
     RadioButtonComponent,
     SliderComponent,
     BadgeComponent,
+    TablaApiComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,8 @@ import { BadgeComponent } from './components/badge/badge.component';
     MatProgressSpinnerModule,
     MatRadioModule,
     MatSliderModule,
-    MatBadgeModule
+    MatBadgeModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
