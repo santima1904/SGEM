@@ -1,17 +1,18 @@
-Análisis examen asp 1
+Análisis examen SGEMP 2T
 
-Capa entidades:
+Entidades:
 	- clsPlanta. Atributos:
 		idPlanta int
 		nombre string
 		descripcion string
 		idCategoria int
 		precio double
+
 	- clscategoria. Atributos:
 		idCategoria int
 		nombreCategoria string
 
-Capa DAL:
+DAL:
 	- Utilidades: 
 		- clsMyConnection
 	- Listado:
@@ -20,42 +21,44 @@ Capa DAL:
 			clsPlanta obtenerPlanta(int id)
 		- clsListadoCategorias
 			ObservableCollection<clsCategoria> obtenerListadoCategoriasCompletoDAL()
-	- Gestora:
-		- clsGestoraPlanta
-			int actualizarPrecioPlantaDAL(clsPlanta planta)
 
-Capa BL:
-	- Listado:
-		- clsListadoPlantas
-			ObservableCollection<clsPlanta> obtenerListadoPlantasPorCategoriaBL(int idCategoria)
-		- clsListadoCategorias
-			ObservableCollection<clsCategoria> obtenerListadoCategoriasCompletoBL()
-	- Gestora:
-		- clsGestoraPlanta
-			int actualizarPrecioPlantaBL(clsPlanta planta)
+Api: 
+	- PlantasController:
+		ObjectResult getListadoPlantaCategoria(int id)//Get listado por categoria
+		ObjectResult getPlanta(int id)//Get planta
+
+	- CategoriasController:
+		ObjectResult getListadoCategorias()
 
 
-Capa UI:
-	- Models:
-		(clsPlantaSoloNombre) este modelo sería si me da tiempo porque no es necesario pero es más eficiente
-		- ViewModels: 
-			- clsListadoCategorias
-				Atributos:
-					ObservableCollection<clsCategoria> listadoCategorias
-				Métodos:
-					ObservableCollection<clsCategoria> rellenarListadoCategoriasCompleto()
-				
-			- clsListadoPlantasPorCategoria
-				Atributos:
-					ObservableCollection<clsPlanta> listadoPlantas
-				Métodos:
-					ObservableCollection<clsCategoria> rellenarListadoPlantasPorCategoria()
+Vista:
+	- Index.html: Contendrá una tabla con las categorías y un checkbox para poder seleccionar cada una de ellas
+	- Index.js: 
+		 var listadoCategoria
 
-	- Controllers:
-		- ListadoCategoriaController
-		- ListadoPlantasController
-		
-	- Views:
-		ListadoCategoria
-		ListadoPlantas
-		Planta
+		- function rellenarTablaCategorias()//método para llamar a la api y coger las categorías
+
+		- function mostrarInforme()//muestra el resultado esperado con los datos obtenidos previamente
+
+		- function comprobacionErrores()//comprobar errores procedentes de la api
+
+		- function rellenarPlantas(categoriaSeleccionada)
+
+		- function adquirirCategoriasSeleccionadas()
+
+ 		- function crearTabla(arrayCategorias)
+
+ 		- function inicializaEventos()
+
+
+
+	Mensaje para Fernando de un Santi frustrado:
+	La solución mostrada no es la esperada. Nose porque se me superponen las categorías al mostrar los precios, supongo que la habré liado en algo por las prisas.
+	El tema de coger los seleccionados no he conseguido hacerlo. Espero que sea bueno y valore mi esfuerzo 
+
+
+
+
+
+
+
